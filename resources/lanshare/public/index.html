@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Quick - File Sharing Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="/icons/manifest.json" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="rgb(7,142,251)" />
+    <meta name="theme-color" content="rgb(7,142,251)" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@bitjson/qr-code@1.0.2/dist/qr-code.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="logo">Quick</div>
+      <div class="creator">Powered by Opensource Community</div>
+      <div class="text">Share files across devices in the same network</div>
+      <div class="actions">
+        <!-- <div class="action">
+          <a target="_blank" rel="noreferrer"> Select File </a>
+        </div> -->
+        <form
+          ref="uploadForm"
+          id="uploadForm"
+          action=""
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <div id="fileToUploadButtonBox">
+            <div id="fileToUploadButton" class="quick-btn">
+              <span class="button-text">Choose File</span>
+              <input type="file" name="fileToUpload" id="fileToUpload" class="input-file-upload" />
+            </div>
+          </div>
+        </form>
+        <div id="errorPanel" class="panel panel-danger hidden">
+          <div class="panel-body text-center">
+            <p class="text-danger" style="margin: 0">File upload failed.</p>
+          </div>
+        </div>
+
+        <br />
+
+        <div id="fileList">
+          <list-item
+            v-for="content in rootContentObject.contents"
+            :key="content.path"
+            :content="content"
+            :deletion="allowDeletion"
+          />
+        </div>
+      </div>
+      <ul class="versions">
+        <li class="electron-version">Crafted by ScriptKavi</li>
+      </ul>
+    </div>
+    <script src="vue/vue.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" width="1440" height="400" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+  <defs>
+    <clipPath id="__lottie_element_3">
+      <rect width="1440" height="400" x="0" y="0"></rect>
+    </clipPath>
+    <linearGradient id="__lottie_element_7" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="-57.21099853515625" y1="62.659000396728516" x2="-55.96900177001953" y2="-46.784000396728516">
+      <stop offset="0%" stop-color="rgb(7,142,251)" stop-opacity="1"></stop>
+      <stop offset="50%" stop-color="rgb(4,71,125)" stop-opacity="0.5"></stop>
+      <stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="__lottie_element_11" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="-66.88300323486328" y1="54.8120002746582" x2="-69.93800354003906" y2="-49.09400177001953">
+      <stop offset="16%" stop-color="rgb(172,135,235)" stop-opacity="1"></stop>
+      <stop offset="58%" stop-color="rgb(86,68,118)" stop-opacity="0.5"></stop>
+      <stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="__lottie_element_15" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="-86.58100128173828" y1="48.266998291015625" x2="-88.02100372314453" y2="-45.03099822998047">
+      <stop offset="16%" stop-color="rgb(7,142,251)" stop-opacity="1"></stop>
+      <stop offset="58%" stop-color="rgb(4,71,125)" stop-opacity="0.5"></stop>
+      <stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="__lottie_element_19" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="19.93000030517578" y1="79.22699737548828" x2="23.209999084472656" y2="-88.46900177001953">
+      <stop offset="0%" stop-color="rgb(172,135,235)" stop-opacity="1"></stop>
+      <stop offset="50%" stop-color="rgb(86,68,118)" stop-opacity="0.5"></stop>
+      <stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="0"></stop>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#__lottie_element_3)">
+    <g transform="matrix(1,0,0,1,1248,121)" opacity="0.5" style="display: block;">
+      <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+        <path stroke="url(#__lottie_element_19)" stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-opacity="1" stroke-width="2" d=" M163,-229 C163,-229 163,153.85899353027344 163,153.85899353027344 C163,170.41600036621094 149.5570068359375,183.85899353027344 133,183.85899353027344 C133,183.85899353027344 74.45500183105469,183.85899353027344 74.45500183105469,183.85899353027344 C57.89800262451172,183.85899353027344 44.45500183105469,170.41600036621094 44.45500183105469,153.85899353027344 C44.45500183105469,153.85899353027344 44.45500183105469,98 44.45500183105469,98 C44.45500183105469,81.44300079345703 31.012001037597656,68 14.455001831054688,68 C14.455001831054688,68 -313.5639953613281,68 -313.5639953613281,68 C-313.5639953613281,68 -313.5639953613281,68 -313.5639953613281,68"></path>
+      </g>
+    </g>
+    <g transform="matrix(-1,0,0,1,163,64)" opacity="0.5" style="display: block;">
+      <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+        <path stroke="url(#__lottie_element_15)" stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-opacity="1" stroke-width="2" d=" M96,-846 C96,-846 96,139.71800231933594 96,139.71800231933594 C96,152.96360778808594 85.24559783935547,163.71800231933594 72,163.71800231933594 C72,163.71800231933594 -132.56399536132812,163.71800231933594 -132.56399536132812,163.71800231933594 C-145.80960083007812,163.71800231933594 -156.56399536132812,152.96360778808594 -156.56399536132812,139.71800231933594 C-156.56399536132812,139.71800231933594 -156.56399536132812,86 -156.56399536132812,86 C-156.56399536132812,78.03199768066406 -160.45599365234375,70.96600341796875 -166.4409942626953,66.60099792480469"></path>
+      </g>
+    </g>
+    <g style="display: none;" transform="matrix(-1,0,0,1,131,74)" opacity="0.5">
+      <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+        <path stroke="url(#__lottie_element_11)" stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-opacity="1" stroke-width="2" d=" M-366.4230041503906,-152.6750030517578 C-366.4230041503906,-159.82000732421875 -366.4230041503906,-164 -366.4230041503906,-164"></path>
+      </g>
+    </g>
+    <g style="display: none;" transform="matrix(1,0,0,1,1263,66)" opacity="0.5">
+      <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+        <path stroke="url(#__lottie_element_7)" stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke-opacity="1" stroke-width="2" d=" M-443.7049865722656,-299.8190002441406 C-443.7049865722656,-310.1210021972656 -443.7049865722656,-316 -443.7049865722656,-316"></path>
+      </g>
+    </g>
+  </g>
+</svg>
